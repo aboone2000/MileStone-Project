@@ -1,0 +1,25 @@
+html{
+ 
+    animation: mymove 5s infinite;    
+}
+h2{
+    text-align: center;
+
+}
+
+#btn1:hover{
+    background-color: black;
+    color: greenyellow;
+    transition: 0.8s;
+  
+}
+#btn2:hover{
+    background-color: black;
+    color: deepskyblue;
+    transition: 0.8s; 
+}
+
+div{
+    text-align: center;
+    box-shadow: 50px;
+}
