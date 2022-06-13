@@ -4,24 +4,26 @@
         <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
     <script src="script.js"></script> 
-    <h2>Aaron's Trivia Quiz Game</h2>
+    <h2>Aaron's Trivia NBA Quiz Game</h2>
     </head>
    <body>
-    <div class="category"> 
-        <label for="Category">Choose a category:</label>
-        
-        <select name="Category" id="Category">
-            <option>NBA Quiz</option>
-            <option>Math Quiz</option>
-            <option>NFL Quiz</option>
-        </select>
-
+   
+    <div id="container">
+       <div id="question-container"class="hide">
+           <div id="question">Question</div>
+       <div id="answer-buttons" class="btn-grid">
+       <button class="btn">Answer 1</button>
+       <button class="btn">Answer 2</button>
+       <button class="btn">Answer 3</button>
+       <button class="btn">Answer 4</button>
+    </div>
        </div>
-    
-    <div class="container">
+    </div>
+    <div class="controls">
+        
          <form> 
-            <button type="text" id="btn1">Play Now!</button>
-            <button type="text" id="btn2">Exit Game</button>
+            <button id="start-btn" type=text >Play Now!</button>
+            <button id="next-btn" type=text>Next Question</button>
          </form>
         </div>
        
